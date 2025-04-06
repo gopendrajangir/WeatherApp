@@ -7,8 +7,8 @@ A simple and elegant weather app that lets you check current weather conditions 
 - 🔍 **Search Functionality**  
   Search for weather data by typing in the search bar.
 
-- 📍 **Default Location Display**  
-  Automatically displays weather for your default location on app launch.
+- 📍 **Predefined Locations**  
+  Displays a list of predefined locations on app launch for quick access.
 
 - 📴 **Offline Support**  
   When offline, the app shows the last fetched weather data so you're never left in the dark.
