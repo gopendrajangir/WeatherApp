@@ -43,7 +43,6 @@ export interface TextUtilStyleProps {
   color?: StyleProps["color"];
   fontSize?: StyleProps["fontSize"];
   fontWeight?: StyleProps["fontWeight"];
-  textAlign?: StyleProps["textAlign"];
 }
 
 const useUtilStyles = (props: UtilStyleProps & TextUtilStyleProps) => {
@@ -69,7 +68,6 @@ const useUtilStyles = (props: UtilStyleProps & TextUtilStyleProps) => {
     color,
     fontSize,
     fontWeight,
-    textAlign,
     overflow,
   } = props;
 
@@ -96,7 +94,6 @@ const useUtilStyles = (props: UtilStyleProps & TextUtilStyleProps) => {
       color,
       fontSize,
       fontWeight,
-      textAlign,
       overflow,
     };
   }, [
@@ -121,7 +118,6 @@ const useUtilStyles = (props: UtilStyleProps & TextUtilStyleProps) => {
     color,
     fontSize,
     fontWeight,
-    textAlign,
     overflow,
   ]);
 

@@ -81,6 +81,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
           placeholderTextColor={colors.inputPlaceholder}
           defaultValue={defaultValue}
           value={search}
+          autoFocus
           onChangeText={(value) => {
             setSearch(value);
           }}
