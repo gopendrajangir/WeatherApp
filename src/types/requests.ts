@@ -1,0 +1,3 @@
+interface FetchWeatherDataPayload {
+  search: string;
+}
